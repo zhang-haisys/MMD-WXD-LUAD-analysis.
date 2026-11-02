@@ -1,0 +1,24 @@
+# Local configuration and credentials
+config/config.local.R
+.Renviron
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+# Data, generated output and databases
+workspace/**
+!workspace/.gitkeep
+results/**
+!results/README.md
+data/raw/**
+data/processed/**
+*.rda
+*.RData
+*.rds
+*.maf
+*.maf.gz
+*.zip
+.DS_Store
+Thumbs.db
